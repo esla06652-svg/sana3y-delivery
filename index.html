@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <link rel="manifest" href="manifest.json">
+
+  <meta property="og:title" content="نقاش محترف في مصر">
+<meta property="og:description" content="خدمات النقاشة والدهانات والتشطيبات بأفضل جودة">
+  <meta property="og:image" content="https://esla06652-svg.github.io/share-image.jpg">
+<meta property="og:type" content="website">
+
+<link rel="canonical" href="https://esla06652-svg.github.io/">
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"LocalBusiness",
+"name":"خدمات النقاشة والدهانات",
+"url":"https://esla06652-svg.github.io/",
+"image":"https://esla06652-svg.github.io/file_000000006468720ab779852a9f67d229.png",
+"description":"خدمات النقاشة والدهانات وتشطيب الشقق والفلل في مصر",
+"address":{
+"@type":"PostalAddress",
+"addressCountry":"EG"
+}
+}
+  
+</script>
+
+<link rel="icon" href="file_000000006468720ab779852a9f67d229.png">
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<title>
+نقاش محترف في مصر | خدمات النقاشة والدهانات وتشطيب الشقق بأفضل الأسعار
+</title>
+
+<meta name="description"
+content="أفضل خدمات النقاشة والدهانات في مصر وتشطيب الشقق والفلل بأعلى جودة">
+
+<meta name="keywords"
+content="نقاش, دهانات, تشطيب شقق, ديكورات, عزل أسطح, ورق حائط">
+
+<meta name="theme-color" content="#000000">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<meta name="robots" content="index, follow">
+
+<meta property="og:title"
+content="خدمات النقاشة والدهانات">
+
+<meta property="og:description"
+content="أفضل خدمات النقاشة والدهانات وتشطيب الشقق والفلل في مصر">
+
+<meta property="og:type"
+content="website">
+
+
+<meta property="og:url"
+content="https://esla06652-svg.github.io/">
+
+<meta name="twitter:card"
+content="summary_large_image">
+
+<meta name="author"
+content="خدمات النقاشة والدهانات">
+  
+</head>
+
+<body>
+
+<div id="splash">
+
+  <img src="file_00000000ce1071f4bb11c04137ed3a7c%20(2).jpg" class="splashLogo">
+  <div class="splashText">اطلب نقاش</div>
+  <div class="splashText">خدمات النقاشة والدهانات</div>
+</div>
+
+<div class="topMenu">
+
+<div class="menuIcon" onclick="toggleMenu()">⋮</div>
+
+<div id="menuList" class="menuList">
+
+<div onclick="goHome();closeMenu()">
+الرئيسية
+</div>
+
+<div onclick="showOffers();closeMenu()">
+العروض المخفضة
+</div>
+
+<div onclick="showOrders();closeMenu()">
+طلباتي
+</div>
+
+<div onclick="showAbout();closeMenu()">
+عن الشركة
+</div>
+
+<div onclick="showComplaints();closeMenu()">
+الشكاوي والاقتراحات
+</div>
+
+<div onclick="showPrivacy();closeMenu()">
+سياسة الخصوصية
+</div>
+
+<div onclick="contactUs();closeMenu()">
+اتصل بنا
+</div>
+
+</div>
+
+</div>
+
+<div id="home">
+
+<h1 class="logoText">
+خدمات النقاشة والدهانات
+</h1>
+
+<div class="slider" id="slider">
+
+<div class="slide active">
+
+<img
+src="https://i.ibb.co/k2QYKHQN/grok-image-1773524443136.jpg"
+alt="نقاش محترف">
+
+<div class="slideText">
+اطلب نقاش محترف
+</div>
+
+</div>
+
+<div class="slide">
+
+<img
+src="https://i.ibb.co/JRMrqtKG/pngtree-all-cleaning-supplies-and-equipment-sitting-on-the-floor-image-2582380.jpg"
+alt="تنظيف بعد التشطيب">
+
+<div class="slideText">
+تنظيف بعد التشطيب
+</div>
+
+</div>
+
+<div class="slide">
+
+<img
+src="https://i.ibb.co/QjT4f4hm/grok-image-1773525050471.jpg"
+alt="دهانات حديثة">
+
+<div class="slideText">
+اختيار اللون المناسب خصم 20%
+</div>
+
+</div>
+
+</div>
+
+<button class="mainBtn"
+onclick="showServices()">
+
+أعمال النقاشة
+
+</button>
+
+<button class="mainBtn"
+onclick="showCleaning()">
+
+تنظيف بعد تشطيب
+
+</button>
+
+<button class="mainBtn contactBtn"
+onclick="contactUs()">
+
+تواصل معنا
+
+</button>
+
+</div>
+<button id="backBtn"
+class="hidden"
+onclick="goBack()">
+←
+</button>
+
+<div id="services" class="hidden"></div>
+
+<div id="cleaning" class="hidden">
+
+<div class="box"
+onclick="openWelcome('تنظيف عادي')">
+
+تنظيف عادي
+
+</div>
+
+<div class="box"
+onclick="openWelcome('تنظيف بعد تشطيب')">
+
+تنظيف بعد تشطيب
+
+</div>
+
+</div>
+
+<div id="offers" class="hidden">
+
+<div class="serviceBox"
+onclick="openWelcome('اطلب نقاش محترف')">
+
+اطلب نقاش محترف 150 جنيه للمعاينة
+
+</div>
+
+<div class="serviceBox"
+onclick="openWelcome('وش نظافة')">
+
+وش نظافة 30 جنيه للمتر
+
+</div>
+
+<div class="serviceBox"
+onclick="openWelcome('تأسيس على المحارة')">
+
+تأسيس على المحارة 40 جنيه للمتر
+
+</div>
+
+<div class="serviceBox"
+onclick="openWelcome('تشطيب دهانات كاملة سوبر لوكس')">
+
+تشطيب دهانات كاملة سوبر لوكس 70 جنيه للمتر
+
+</div>
+
+<div class="serviceBox"
+onclick="openWelcome('عزل أسطح')">
+
+عزل أسطح توريد وتركيب 90 جنيه للمتر
+
+</div>
+
+<div class="serviceBox"
+onclick="openWelcome('دهان شباك لاكيه صغير')">
+
+دهان شباك لاكيه صغير 400 جنيه
+
+</div>
+
+<div class="serviceBox"
+onclick="openWelcome('ورق حائط')">
+
+متر ورق الحائط 60 جنيه
+
+</div>
+
+<div class="serviceBox"
+onclick="openWelcome('حجر مايكا')">
+
+حجر مايكا المتر توريد وتركيب 220 جنيه
+
+</div>
+
+</div>
+
+<div id="orders" class="hidden">
+
+<h2>
+طلباتي
+</h2>
+
+<button id="clearOrdersBtn"
+class="hidden"
+onclick="clearOrders()">
+
+مسح كل الطلبات
+
+</button>
+
+<div class="ordersTabs">
+
+<button onclick="showCurrentOrders()">
+طلبات تحت التنفيذ
+</button>
+
+<button onclick="showOldOrders()">
+طلبات سابقة
+</button>
+
+</div>
+
+<div id="currentOrders" class="hidden">
+لا يوجد طلبات تحت التنفيذ
+</div>
+
+<div id="oldOrders" class="hidden">
+لا يوجد طلبات سابقة
+</div>
+
+</div>
+
+<div id="about" class="hidden">
+
+<h2>
+عن الشركة
+</h2>
+
+
+
+<div class="welcomeText">
+شركة متخصصة في التشطيبات والديكورات الحديثة بأعلى معايير الجودة والدقة.
+<br><br>
+نقدم خدمات متكاملة في أعمال التشطيب الداخلي والخارجي للمنازل والشقق والمحلات التجارية.
+<br><br>
+نعتمد على فريق عمل محترف يمتلك خبرة كبيرة في تنفيذ جميع أنواع التشطيبات العصرية.
+<br><br>
+نهتم بأدق التفاصيل لنضمن أفضل نتيجة ترضي العميل وتناسب ذوقه الخاص.
+<br><br>
+نوفر حلول تصميم وتشطيب تجمع بين الجودة العالية والسعر المناسب.
+<br><br>
+نستخدم خامات قوية ومضمونة لضمان أفضل مستوى من المتانة والشكل الجمالي.
+<br><br>
+نلتزم بمواعيد التنفيذ وتسليم الأعمال في الوقت المحدد بدون تأخير.
+<br><br>
+نسعى دائمًا لتقديم أفكار حديثة وتصميمات عصرية تناسب جميع المساحات.
+<br><br>
+نوفر خدمات الدهانات والجبس والإضاءة والديكورات الحديثة باحترافية كاملة.
+<br><br>
+هدفنا هو تحويل أي مساحة إلى مكان أنيق ومريح يعكس الذوق الراقي.
+<br><br>
+نحرص على كسب ثقة العملاء من خلال الجودة والالتزام وحسن التعامل.
+<br><br>
+لدينا خبرة في تنفيذ المشاريع الصغيرة والكبيرة بكفاءة عالية.
+<br><br>
+نقدم متابعة مستمرة مع العميل أثناء جميع مراحل التنفيذ والتشطيب.
+<br><br>
+رضا العميل هو أولويتنا الأساسية ونسعى دائمًا لتقديم أفضل خدمة ممكنة.
+<br><br>
+معنا ستحصل على تشطيب احترافي يجمع بين الفخامة والجودة والسعر المناسب.
+</div>
+
+</div>
+
+<div id="complaints" class="hidden">
+
+<h2>
+الشكاوي والاقتراحات
+</h2>
+
+<textarea id="complaintText"
+placeholder="اكتب شكوتك أو اقتراحك"></textarea>
+  <button class="sendBtn"
+onclick="sendComplaint()">
+
+إرسال
+
+  </button>
+
+
+
+</div>
+
+<div id="privacy" class="hidden">
+
+<h2>
+سياسة الخصوصية
+</h2>
+
+<p class="welcomeText">
+
+نحن في تطبيق خدمات النقاشة والدهانات نحترم خصوصية المستخدمين بشكل كامل.
+
+يقوم التطبيق بجمع بعض البيانات الأساسية عند إرسال الطلب.
+
+تشمل هذه البيانات الاسم ورقم الهاتف والعنوان.
+
+يتم استخدام البيانات فقط لتنفيذ الخدمة المطلوبة.
+
+لا نقوم ببيع أو مشاركة بيانات العملاء مع أي جهة خارجية.
+
+يتم الحفاظ على سرية جميع البيانات داخل التطبيق.
+
+قد يتم التواصل مع العميل بخصوص الطلب فقط.
+
+لا يتم استخدام بيانات العميل في أي أغراض أخرى.
+
+نسعى دائماً إلى حماية معلومات المستخدمين.
+
+نلتزم بتوفير تجربة استخدام آمنة وسهلة.
+
+يمكن تحديث سياسة الخصوصية في أي وقت لتحسين الخدمة.
+
+استخدام التطبيق يعني الموافقة على سياسة الخصوصية.
+
+يحق للمستخدم التواصل معنا للاستفسار عن البيانات.
+
+نحافظ على بيانات العملاء بأقصى درجة من الأمان.
+
+لا نطلب أي معلومات بنكية أو بيانات حساسة.
+
+جميع الطلبات يتم التعامل معها بسرية كاملة.
+
+نلتزم بالرد على الشكاوى والاقتراحات بسرعة.
+
+هدفنا تقديم أفضل خدمة ممكنة للعملاء.
+
+نشكركم على ثقتكم في خدمات النقاشة والدهانات.
+
+نتمنى لكم تجربة استخدام ممتازة وآمنة دائماً.
+
+</p>
+
+</div>
+
+<div id="welcome" class="hidden">
+
+<p class="welcomeText">
+
+مرحباً بك في خدمات النقاشة والدهانات.
+
+لدينا فريق عمل محترف وخبرة كبيرة.
+
+نقدم أفضل خدمات التشطيب والدهانات الحديثة.
+
+نستخدم أفضل أنواع الخامات لضمان أعلى جودة.
+
+نلتزم بالمواعيد والدقة في التنفيذ.
+
+ننفذ جميع أنواع الدهانات الداخلية والخارجية.
+
+نوفر خدمات تنظيف بعد التشطيب.
+
+لدينا خبرة كبيرة في الديكورات الحديثة.
+
+نساعدك في اختيار أفضل الألوان المناسبة.
+
+ننفذ ورق الحائط بأعلى احترافية.
+
+نقدم أسعار مناسبة لجميع العملاء.
+
+نسعى دائماً إلى رضا العميل الكامل.
+
+الجودة والنظافة من أهم أولوياتنا.
+
+نعمل بأحدث الأدوات والخامات الحديثة.
+
+شكراً لاختياركم خدمات النقاشة والدهانات.
+
+</p>
+
+<button class="bookBtn"
+onclick="showForm()">
+
+احجز موعد
+
+</button>
+
+</div>
+
+<div id="formPage" class="hidden">
+
+<input id="name"
+placeholder="الاسم">
+
+<input id="phone"
+placeholder="رقم التليفون">
+
+<textarea id="message"
+placeholder="اكتب رسالتك"></textarea>
+
+<input id="location"
+placeholder="العنوان">
+
+<button id="sendBtn"
+class="sendBtn"
+onclick="sendOrder()">
+
+إرسال الطلب
+
+</button>
+
+</div>
+
+<div class="bottomNav">
+
+<div onclick="goHome()">
+
+<i class="fa-solid fa-house"></i>
+
+<br>
+
+الرئيسية
+
+</div>
+
+<div onclick="showServices()">
+
+<i class="fa-solid fa-paint-roller"></i>
+
+<br>
+
+الخدمات
+
+</div>
+
+<div onclick="showOffers()">
+
+<i class="fa-solid fa-tags"></i>
+
+<br>
+
+العروض
+
+</div>
+
+<div onclick="showOrders()">
+
+<i class="fa-solid fa-box"></i>
+
+<br>
+
+طلباتي
+
+</div>
+
+</div>
+
+    
+<div class="featuresBox">
+
+<div class="featureTitle">
+<i class="fa-solid fa-circle-check"></i>
+<span>كيف تضمن خدمتك</span>
+</div>
+
+<div class="featureItem">
+<i class="fa-solid fa-id-card"></i>
+<span>
+عمال وفنيين متعاقديين وجميع بياناتهم موجودة بالكامل
+</span>
+</div>
+
+<div class="featureItem">
+<i class="fa-solid fa-headset"></i>
+<span>
+متابعة دورية خلال وحتى الإنتهاء من تنفيذ الوردر
+</span>
+</div>
+
+<div class="featureItem">
+<i class="fa-solid fa-user-check"></i>
+<span>
+ان لم تجد السعر مناسب يمكننا توفير فنى او عامل بديل
+</span>
+</div>
+
+<div class="featureItem">
+<i class="fa-solid fa-users"></i>
+<span>
+و نخدم اكثر من 700.000 عميل ومستمريين في الطلب دوريا
+</span>
+</div>
+
+  </div>
+
+<footer
+style="text-align:center;
+padding:15px;
+background:#111;
+color:#fff;">
+
+<a href="#"
+onclick="showPrivacy()"
+style="color:#fff;
+text-decoration:none;">
+
+سياسة الخصوصية
+
+</a>
+
+</footer>
+<div id="contactBox" class="hidden">
+
+<h2>
+تواصل معنا
+</h2>
+
+<textarea id="contactMessage"
+placeholder="اكتب رسالتك"></textarea>
+
+<button class="sendBtn"
+onclick="sendContactMessage()">
+
+إرسال
+
+</button>
+
+</div>
+
+<!-- شاشة عدم وجود الإنترنت -->
+<div id="offlineBox" style="
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:#ffffff;
+z-index:999999;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+font-family:Arial;
+text-align:center;
+padding:20px;
+">
+
+<h2>لا يوجد اتصال بالإنترنت</h2>
+
+<p style="color:#666;">
+تحقق من الشبكة ثم اضغط إعادة المحاولة
+</p>
+
+<button onclick="retryConnection()" style="
+padding:12px 24px;
+background:#2196F3;
+color:white;
+border:none;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+">
+إعادة المحاولة
+</button>
+
+</div>
+
+<script>
+const offlineBox = document.getElementById("offlineBox");
+
+function updateConnectionStatus() {
+
+  if (navigator.onLine) {
+
+    offlineBox.style.display = "none";
+
+  } else {
+
+    offlineBox.style.display = "flex";
+
+  }
+
+}
+
+function retryConnection() {
+
+  if (navigator.onLine) {
+    location.reload();
+  } else {
+    updateConnectionStatus();
+  }
+
+}
+
+window.addEventListener("online", updateConnectionStatus);
+window.addEventListener("offline", updateConnectionStatus);
+
+updateConnectionStatus();
+</script>
+
+<script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init("YyLr9AaPf4ndV53Ck");
+</script>
+
+  <!-- كل محتوى الموقع بتاعك هنا -->
+
+<!-- Splash + الصفحة + كل حاجة -->
+
+<script>
+window.addEventListener("load", function () {
+  setTimeout(function () {
+    let splash = document.getElementById("splash");
+    splash.style.opacity = "0";
+
+    setTimeout(function () {
+      splash.style.display = "none";
+    }, 500);
+
+  }, 3000);
+});
+</script>
+
+</body>
+</html>
