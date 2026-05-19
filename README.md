@@ -1,1 +1,1 @@
-# [افتح الموقع](https://esla06652.github.io/sana3y-delivery/)
+# https://esla06652-svg.github.io/sana3y-delivery/
