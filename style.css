@@ -49,32 +49,67 @@ grid-template-columns:repeat(2,1fr);
 gap:20px;
 padding:20px;
 }
-
 .serviceBox{
-background:linear-gradient(145deg,#111,#000);
-border:2px solid gold;
-border-radius:15px;
-padding:25px;
-font-size:16px;
+background:linear-gradient(145deg,#0a0a0a,#111,#001a33);
+border:2px solid #00aaff;
+border-radius:22px;
+padding:28px 18px;
+font-size:17px;
 font-weight:bold;
-color:gold;
+color:#fff;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
 cursor:pointer;
-box-shadow:0 0 10px gold;
-transition:0.3s;
+box-shadow:
+0 0 12px rgba(0,170,255,0.5),
+0 0 25px rgba(0,170,255,0.25);
+transition:0.35s;
+position:relative;
+overflow:hidden;
+backdrop-filter:blur(6px);
+}
+
+.serviceBox::before{
+content:"";
+position:absolute;
+top:-50%;
+left:-50%;
+width:200%;
+height:200%;
+background:linear-gradient(
+45deg,
+transparent,
+rgba(0,170,255,0.15),
+transparent
+);
+transform:rotate(25deg);
+animation:shine 4s linear infinite;
 }
 
 .serviceBox:hover{
-transform:scale(1.05);
-box-shadow:0 0 20px gold,0 0 40px gold;
+transform:translateY(-6px) scale(1.03);
+box-shadow:
+0 0 18px #00aaff,
+0 0 40px rgba(0,170,255,0.5),
+0 0 70px rgba(0,170,255,0.25);
+border-color:#33bbff;
 }
 
 .serviceBox:active{
-transform:scale(0.95);
+transform:scale(0.96);
 }
+
+@keyframes shine{
+0%{
+transform:translateX(-100%) rotate(25deg);
+}
+100%{
+transform:translateX(100%) rotate(25deg);
+}
+}
+
 
 .box{
 background:#111;
