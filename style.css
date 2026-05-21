@@ -538,13 +538,6 @@ box-shadow:0 0 18px gold;
 transform:scale(0.95);
 }
 
-.homeCard img{
-width:55px;
-height:55px;
-object-fit:contain;
-margin-bottom:10px;
-}
-
 .homeCard span{
 color:#fff;
 font-size:14px;
@@ -563,9 +556,11 @@ gap:10px;
 padding:12px 8px;
 }
 
-.homeCard img{
-width:45px;
-height:45px;
+.homeCard i{
+font-size:40px;
+color:gold;
+margin-bottom:12px;
+text-shadow:0 0 12px gold;
 }
 
 .homeCard span{
