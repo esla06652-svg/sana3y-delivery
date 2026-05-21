@@ -1,0 +1,21 @@
+{
+  "name": "اطلب صنايعي دليفري",
+  "short_name": "صنايعي",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#f5c400",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "file_000000006468720ab779852a9f67d229.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "file_000000006468720ab779852a9f67d229.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
