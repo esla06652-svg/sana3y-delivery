@@ -548,15 +548,6 @@ text-shadow:
 0 0 30px rgba(192,192,192,0.7);
 }
 
-.homeCard i{
-font-size:40px;
-color:#00aaff;
-margin-bottom:12px;
-text-shadow:
-0 0 10px #00aaff,
-0 0 20px rgba(0,170,255,0.8),
-0 0 35px rgba(0,170,255,0.5);
-}
 @media(max-width:500px){
 
 .homeGrid{
