@@ -538,16 +538,16 @@ box-shadow:0 0 18px gold;
 transform:scale(0.95);
 }
 
+
 .homeCard i{
 font-size:40px;
-color:silver;
+color:gold;
 margin-bottom:12px;
 text-shadow:
-0 0 8px #ffffff,
-0 0 18px #c0c0c0,
-0 0 30px rgba(192,192,192,0.7);
+0 0 10px gold,
+0 0 20px rgba(255,215,0,0.8),
+0 0 35px rgba(255,215,0,0.5);
 }
-
 @media(max-width:500px){
 
 .homeGrid{
