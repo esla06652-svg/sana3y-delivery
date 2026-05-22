@@ -548,9 +548,11 @@ line-height:22px;
 
 .homeCard i{
 font-size:40px;
-color:gold;
+color:#fff;
 margin-bottom:12px;
-text-shadow:0 0 12px gold;
+text-shadow:
+0 0 10px #ffffff,
+0 0 20px rgba(255,255,255,0.7);
 }
 @media(max-width:500px){
 
