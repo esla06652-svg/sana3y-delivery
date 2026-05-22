@@ -538,11 +538,21 @@ box-shadow:0 0 18px gold;
 transform:scale(0.95);
 }
 
+.homeCard span{
+color:white;
+font-size:14px;
+font-weight:bold;
+text-align:center;
+line-height:22px;
+}
+
 .homeCard i{
 font-size:40px;
 color:gold;
 margin-bottom:12px;
-text-shadow:0 0 12px gold;
+text-shadow:
+0 0 12px gold,
+0 0 25px rgba(255,215,0,0.7);
 }
 
 @media(max-width:500px){
