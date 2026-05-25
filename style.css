@@ -1,5 +1,12 @@
 body{
-background:linear-gradient(to bottom,#07111f,#0d1b2a,#132238);
+body{
+background:linear-gradient(to bottom,#0b1220,#111827,#1e293b);
+color:gold;
+font-family:Arial;
+text-align:center;
+margin:0;
+padding-bottom:80px;
+}
 color:gold;
 font-family:Arial;
 text-align:center;
