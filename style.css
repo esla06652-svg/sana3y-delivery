@@ -1,11 +1,17 @@
 
 body{
-background:linear-gradient(to bottom,#8b735c,#a0896f,#b49a7a);
-color:gold;
+background:linear-gradient(to bottom,#dff3ff,#bfe6ff);
+color:#0b1b2b;
 font-family:Arial;
 text-align:center;
 margin:0;
 padding-bottom:80px;
+
+/* إطار منوّر حوالين الشاشة */
+border:6px solid #4fc3ff;
+box-shadow:0 0 25px #4fc3ff, 0 0 60px rgba(79,195,255,0.6);
+box-sizing:border-box;
+min-height:100vh;
 }
 .logoText{
 margin-top:60px;
