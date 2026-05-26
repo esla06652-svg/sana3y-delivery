@@ -222,12 +222,6 @@ width:180px;
 z-index:9999;
 box-shadow:0 0 15px rgba(0,0,0,0.8);
 }
-
-.menuList div{
-padding:12px;
-border-bottom:1px solid #333;
-cursor:pointer;
-}
 .menuList div{
 padding:12px;
 border-bottom:1px solid #333;
