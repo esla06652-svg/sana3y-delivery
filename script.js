@@ -815,5 +815,5 @@ window.addEventListener("load", function () {
       }, 500);
     }
 
-  }, 3000);
+  }, 1000);
 });
