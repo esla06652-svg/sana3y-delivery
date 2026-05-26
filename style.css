@@ -228,9 +228,18 @@ padding:12px;
 border-bottom:1px solid #333;
 cursor:pointer;
 }
+.menuList div{
+padding:12px;
+border-bottom:1px solid #333;
+cursor:pointer;
+color:gold;
+font-size:18px;
+text-shadow:0 0 10px gold;
+}
 
 .menuList div:hover{
 background:#222;
+color:gold;
 }
 
 .bottomNav{
